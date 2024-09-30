@@ -140,3 +140,53 @@ def test_suite():
 # Run Test Suite
 test_suite()
 
+Lab
+# Lab Exercise 1: Lists in Python
+
+# 1.
+my_list = [1, 5, 'apple', 20.5]
+
+# 2.
+print(my_list[2])  # Output: 'apple'
+
+# 3. 
+my_list.append(10)
+print(my_list)  # Output: [1, 5, 'apple', 20.5, 10]
+
+# 4.
+my_list.remove(20.5)
+print(my_list)  # Output: [1, 5, 'apple', 10]
+
+# 5.
+my_list.reverse()
+print(my_list)  # Output: [10, 'apple', 5, 1]
+
+
+# Lab Exercise 2: 
+
+# 1. 
+person = {
+    'name': 'John',
+    'age': 30,
+    'job': 'teacher'
+}
+
+# 2. 
+print(person['job'])  # Output: 'teacher'
+
+# 3. 
+person['city'] = 'Paris'
+print(person)  # Output: {'name': 'John', 'age': 30, 'job': 'teacher', 'city': 'Paris'}
+
+# 4.
+person.pop('age')
+print(person)  # Output: {'name': 'John', 'job': 'teacher', 'city': 'Paris'}
+
+# 5. 
+for key, value in person.items():
+    print(f'{key}: {value}')
+# Output:
+# name: John
+# job: teacher
+# city: Paris
+
